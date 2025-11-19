@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <form id="todo-form">
+            <input type="text" id="title-input" placeholder="Task Title..." required>
+            <textarea id="desc-input" placeholder="Task Description..." rows="3"></textarea>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="todo-list">
+            
+            
+            <!-- <li>
+                <div class="task-title">Call dentist</div>
+                <div class="task-desc">Schedule an appointment for next week</div>
+                <div class="task-actions">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+    <script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
